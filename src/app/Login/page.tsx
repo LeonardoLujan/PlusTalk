@@ -1,4 +1,5 @@
 
+import Link from 'next/Link'
 
 export default function Login() {
     
@@ -41,7 +42,9 @@ export default function Login() {
                             
                      </div>
                      <button class="justify-center text-black p-8">
+                            <Link href="/Login/select">
                                           Continue as a guest
+                            </Link>
                      </button>
                      
                      

@@ -3,9 +3,7 @@
 
 export default function Spanish() {
     return(
-        <h1>
-            hey
-        </h1>
+        <div class="text-black justify-center flex p-8"> This is the Spanish Page</div>
 
-    );
+    )
 }

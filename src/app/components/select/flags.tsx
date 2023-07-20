@@ -16,9 +16,10 @@ export default function Flags() {
             
                 <div class="px-3">
                     <div>
+                        <Link href="/Login/select/italian">
 
-                        <Image class="border-4 rounded-full" height={235} width={235} src={ItalianFlag2} alt="Italian Flag"/>
-                        
+                            <Image class="border-4 rounded-full" height={235} width={235} src={ItalianFlag2} alt="Italian Flag"/>
+                        </Link>
                         
                     </div>
 
