@@ -3,12 +3,12 @@
 import {useState} from 'react'
 import Image from 'next/Image'
 import DownArrow from 'src/app/components/learning/spanishwords/DownArrow.png'
-import {SpanL1C1} from './SpanL1Cards/SpanL1C1';
-import {SpanL1C2} from './SpanL1Cards/SpanL1C2';
-import {SpanL1C3} from './SpanL1Cards/SpanL1C3';
-import {SpanL1C4} from './SpanL1Cards/SpanL1C4';
+import {SpanL1BC1} from './SpanL1BC1.tsx';
+import {SpanL1BC2} from './SpanL1BC2.tsx';
+import {SpanL1BC3} from './SpanL1BC3.tsx';
+import {SpanL1BC4} from './SpanL1BC4.tsx';
 
-export function SpanL1Index({isLessonActive, onShowLesson, unShowLesson}){
+export function SpanL1BIndex({isLessonActive, onShowLesson, unShowLesson}){
     
     const [activeIndex, setActiveIndex] = useState(0);
 
@@ -19,7 +19,7 @@ export function SpanL1Index({isLessonActive, onShowLesson, unShowLesson}){
                 <div class="ml-10 shadow-xl w-full rounded">
                     <div class="flex items-center rounded">
 
-                        <h1 class="text-3xl mt-2">Lesson 1: Greetings & Introductions</h1>
+                        <h1 class="text-3xl mt-2">Lesson 1B:</h1>
 
                         <button class="mt-2 rounded" onClick={unShowLesson}>
                             <Image src={DownArrow} height={40} width={40}/>
@@ -29,19 +29,19 @@ export function SpanL1Index({isLessonActive, onShowLesson, unShowLesson}){
 
 
                     <div class="mt-8 grid grid-cols-4 space-x-3 text-2xl">
-                        <SpanL1C1
+                        <SpanL1BC1
                         isActive={activeIndex === 1}
                         onShow={() => setActiveIndex(1)}
                         unShow={() => setActiveIndex(0)}/>
-                        <SpanL1C2
+                        <SpanL1BC2
                         isActive={activeIndex === 2}
                         onShow={() => setActiveIndex(2)}
                         unShow={() => setActiveIndex(0)}/>
-                        <SpanL1C3
+                        <SpanL1BC3
                         isActive={activeIndex === 3}
                         onShow={() => setActiveIndex(3)}
                         unShow={() => setActiveIndex(0)}/>
-                        <SpanL1C4
+                        <SpanL1BC4
                         isActive={activeIndex === 4}
                         onShow={() => setActiveIndex(4)}
                         unShow={() => setActiveIndex(0)}/>
@@ -52,7 +52,7 @@ export function SpanL1Index({isLessonActive, onShowLesson, unShowLesson}){
             ) : (
                 <div class="ml-10 shadow-lg rounded flex items-center w-full">
                     <h1 class="text-3xl mt-1">
-                        Lesson 1: Greetings & Introductions
+                        Lesson 1B:
                     </h1>
 
                     <button class="mt-2 rounded" onClick={onShowLesson}>
@@ -64,12 +64,5 @@ export function SpanL1Index({isLessonActive, onShowLesson, unShowLesson}){
 
         </div>
     )
-
-
-
-
-
-
-
 
 }

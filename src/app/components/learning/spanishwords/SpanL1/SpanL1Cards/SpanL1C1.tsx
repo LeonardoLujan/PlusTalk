@@ -1,4 +1,4 @@
-import {spanishlesson1} from '../SpanishLessons/SpanLesson1.tsx';
+import {spanishlesson1} from 'src/app/components/learning/spanishwords/SpanishLessons/SpanLesson1.tsx';
 
 
 export function SpanL1C1({isActive, onShow, unShow})

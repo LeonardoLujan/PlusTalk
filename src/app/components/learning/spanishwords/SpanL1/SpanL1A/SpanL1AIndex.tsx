@@ -65,11 +65,4 @@ export function SpanL1AIndex({isLessonActive, onShowLesson, unShowLesson}){
         </div>
     )
 
-
-
-
-
-
-
-
 }
