@@ -3,7 +3,7 @@ import IndexItalian from 'src/app/components/learning/italianwords/IndexItalian.
 
 export default function Italian() {
     return(
-        <div class="text-black flex justify-center p-8">
+        <div class="text-black justify-center p-8">
             
             <IndexItalian/>
         </div>

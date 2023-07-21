@@ -2,7 +2,7 @@
 
 import {useState} from 'react'
 import Image from 'next/Image'
-import DownArrow from 'src/app/components/learning/Spanishwords/DownArrow.png'
+import DownArrow from 'src/app/components/learning/spanishwords/DownArrow.png'
 import {ItalL4C1} from './ItalL4C1';
 import {ItalL4C2} from './ItalL4C2';
 import {ItalL4C3} from './ItalL4C3';
@@ -14,12 +14,12 @@ export function ItalL4Index({isLessonActive, onShowLesson, unShowLesson}){
 
     return(
 
-        <div class="flex justify-center pb-8 px-1 w-full">
+        <div class="flex justify-center px-1 w-full">
             {isLessonActive ? (
-                <div class="ml-10 shadow-xl w-full">
+                <div class="ml-10 shadow-xl w-full rounded">
                     <div class="flex items-center rounded">
 
-                        <h1 class="text-3xl mt-2">Lesson 1: Greetings & Introductions</h1>
+                        <h1 class="text-3xl mt-2">Lesson 4: Making Plans</h1>
 
                         <button class="mt-2 rounded" onClick={unShowLesson}>
                             <Image src={DownArrow} height={40} width={40}/>
@@ -28,7 +28,7 @@ export function ItalL4Index({isLessonActive, onShowLesson, unShowLesson}){
                     </div>
 
 
-                    <div class="mt-8 grid grid-cols-4 space-x-3 text-2xl">
+                    <div class="grid grid-cols-4 space-x-3 text-2xl">
                         <ItalL4C1
                         isActive={activeIndex === 1}
                         onShow={() => setActiveIndex(1)}
@@ -52,7 +52,7 @@ export function ItalL4Index({isLessonActive, onShowLesson, unShowLesson}){
             ) : (
                 <div class="ml-10 shadow-lg rounded flex items-center w-full">
                     <h1 class="text-3xl mt-1">
-                        Lesson 1: Greetings & Introductions
+                        Lesson 4: Making Plans
                     </h1>
 
                     <button class="mt-2 rounded" onClick={onShowLesson}>

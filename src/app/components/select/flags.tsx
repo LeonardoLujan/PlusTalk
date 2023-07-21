@@ -1,6 +1,8 @@
 import Image from 'next/Image'
 import ItalianFlag2 from './ItalianFlag2.jpg'
 import SpainFlag from './SpainFlagCropped.png'
+import BrazilFlag from './Brazil2.png'
+import IndianFlag from './IndianFlag.png'
 import Link from 'next/link';
 
 export default function Flags() {
@@ -34,7 +36,23 @@ export default function Flags() {
                     <h1 class="flex justify-center">Spanish</h1>
                     
 
-                </div>       
+                </div>     
+                <div class="px-3"> 
+                    <Link href="/Login/select/portuguese">
+                        <Image class="border-4 rounded-full" height={235} width={235} src={BrazilFlag} alt="Spain Flag"/>
+                    </Link>
+                    <h1 class="flex justify-center">Portuguese</h1>
+                    
+
+                </div> 
+                <div class="px-3"> 
+                    <Link href="/Login/select/hindi">
+                        <Image class="border-4 rounded-full" height={235} width={235} src={IndianFlag} alt="Spain Flag"/>
+                    </Link>
+                    <h1 class="flex justify-center">Hindi</h1>
+                    
+
+                </div> 
             </div>
 
         </div>

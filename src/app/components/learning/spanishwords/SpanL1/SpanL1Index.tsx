@@ -16,7 +16,7 @@ export function SpanL1Index({isLessonActive, onShowLesson, unShowLesson}){
 
         <div class="flex justify-center pb-8 px-1 w-full">
             {isLessonActive ? (
-                <div class="ml-10 shadow-xl w-full">
+                <div class="ml-10 shadow-xl w-full rounded">
                     <div class="flex items-center rounded">
 
                         <h1 class="text-3xl mt-2">Lesson 1: Greetings & Introductions</h1>

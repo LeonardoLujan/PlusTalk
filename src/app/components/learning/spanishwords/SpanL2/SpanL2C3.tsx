@@ -6,10 +6,16 @@ export function SpanL2C3({isActive, onShow, unShow})
     return(
         <div class="shadow-md my-3 flex justify-center">
             {isActive ? (
-                <div onClick={unShow}>{spanishlesson2[2].iphrase}</div>
+                <div>
+                
+                    <div class="text-4xl " onClick={unShow}>{spanishlesson2[2].iphrase}</div>
+                    
+                    <div onClick={unShow}>{spanishlesson2[2].pronunciation}</div>
+
+                </div>
 
             ) : (
-                <div onClick={onShow}>{spanishlesson2[2].ephrase}</div>
+                <div class="text-3xl" onClick={onShow}>{spanishlesson2[2].ephrase}</div>
 
 
             )}

@@ -12,6 +12,8 @@ export function SpanL3Index({isLessonActive, onShowLesson, unShowLesson}){
     
     const [activeIndex, setActiveIndex] = useState(0);
 
+    
+
     return(
         <div class="flex justify-center pb-8 px-1 w-full">
             {isLessonActive ? (

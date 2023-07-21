@@ -2,7 +2,7 @@
 
 import {useState} from 'react'
 import Image from 'next/Image'
-import DownArrow from 'src/app/components/learning/Spanishwords/DownArrow.png'
+import DownArrow from 'src/app/components/learning/spanishwords/DownArrow.png'
 import {ItalL1C1} from './ItalL1C1';
 import {ItalL1C2} from './ItalL1C2';
 import {ItalL1C3} from './ItalL1C3';
@@ -16,7 +16,7 @@ export function ItalL1Index({isLessonActive, onShowLesson, unShowLesson}){
 
         <div class="flex justify-center pb-8 px-1 w-full">
             {isLessonActive ? (
-                <div class="ml-10 shadow-xl w-full">
+                <div class="ml-10 shadow-xl w-full rounded">
                     <div class="flex items-center rounded">
 
                         <h1 class="text-3xl mt-2">Lesson 1: Greetings & Introductions</h1>
