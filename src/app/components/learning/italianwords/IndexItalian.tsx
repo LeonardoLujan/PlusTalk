@@ -2,12 +2,12 @@
 
 import {useState} from 'react'
 import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar.tsx'
-import {SpanL1Index} from './SpanL1/SpanL1Index.tsx';
-import {SpanL2Index} from './SpanL2/SpanL2Index.tsx';
-import {SpanL3Index} from './SpanL3/SpanL3Index.tsx';
-import {SpanL4Index} from './SpanL4/SpanL4Index.tsx';
+import {ItalL1Index} from './ItalL1/ItalL1Index.tsx';
+import {ItalL2Index} from './ItalL2/ItalL2Index.tsx';
+import {ItalL3Index} from './ItalL3/ItalL3Index.tsx';
+import {ItalL4Index} from './ItalL4/ItalL4Index.tsx';
 
-export default function IndexSpanish() {
+export default function IndexItalian() {
     
     const [activeLesson, setActiveLesson] = useState(1);
     
@@ -24,25 +24,25 @@ export default function IndexSpanish() {
 
                         <div class=" mt-10 grid grid-rows-6 col-start-2 col-span-5 max-w-screen">
                             <div class="row-span-1 row-start-1">
-                                <SpanL1Index
+                                <ItalL1Index
                                 isLessonActive={activeLesson === 1}
                                 onShowLesson={() => setActiveLesson(1)}
                                 unShowLesson={() => setActiveLesson(0)}/>
                             </div>
                             <div class="row-span-1 row-start-2">
-                                <SpanL2Index
+                                <ItalL2Index
                                 isLessonActive={activeLesson === 2}
                                 onShowLesson={() => setActiveLesson(2)}
                                 unShowLesson={() => setActiveLesson(0)}/>
                             </div>
                             <div class="row-span-1 row-start-3">
-                                <SpanL3Index
+                                <ItalL3Index
                                 isLessonActive={activeLesson === 3}
                                 onShowLesson={() => setActiveLesson(3)}
                                 unShowLesson={() => setActiveLesson(0)}/>
                             </div>
                             <div class="row-span-1 row-start-4">
-                                <SpanL4Index
+                                <ItalL4Index
                                 isLessonActive={activeLesson === 4}
                                 onShowLesson={() => setActiveLesson(4)}
                                 unShowLesson={() => setActiveLesson(0)}/>

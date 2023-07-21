@@ -1,6 +1,8 @@
 "use client"
 
 import {useState} from 'react';
+import Image from 'next/Image'
+import DownArrow from 'src/app/components/learning/spanishwords/DownArrow.png'
 import {SpanL2C1} from './SpanL2C1';
 import {SpanL2C2} from './SpanL2C2';
 import {SpanL2C3} from './SpanL2C3';
@@ -11,18 +13,21 @@ export function SpanL2Index({isLessonActive, onShowLesson, unShowLesson}){
     const [activeIndex, setActiveIndex] = useState(0);
 
     return(
-
-        <div class="flex justify-center p-8">
+        <div class="flex justify-center pb-8 px-1 w-full">
             {isLessonActive ? (
-                <div>
-                    <h1>Lesson 2: Greetings & Introductions</h1>
+                <div class="ml-10 shadow-xl w-full">
+                    <div class="flex items-center rounded">
 
-                    <button class ="mt-2 shadow-md rounded" onClick={unShowLesson}>
-                            This is the 2 button
-                    </button>
+                        <h1 class="text-3xl mt-2">Lesson 2: Asking & Answering Questions</h1>
+
+                        <button class="mt-2 rounded" onClick={unShowLesson}>
+                            <Image src={DownArrow} height={40} width={40}/>
+                        </button>
+
+                    </div>
 
 
-                    <div class="mt-8">
+                    <div class="grid grid-cols-4 space-x-3 text-2xl">
                         <SpanL2C1
                         isActive={activeIndex === 1}
                         onShow={() => setActiveIndex(1)}
@@ -44,18 +49,20 @@ export function SpanL2Index({isLessonActive, onShowLesson, unShowLesson}){
                     </div>
                 </div>
             ) : (
-                <div>
-                    <h1>
-                        Lesson 2: Greetings & Introductions
+                <div class="ml-10 shadow-lg rounded flex items-center w-full">
+                    <h1 class="text-3xl mt-1">
+                        Lesson 2: Asking & Answering Questions
                     </h1>
 
-                    <button class ="mt-2 shadow-md rounded" onClick={onShowLesson}>
-                        This is the button
+                    <button class="mt-2 rounded" onClick={onShowLesson}>
+                        <Image src={DownArrow} height={40} width={40}/>
                     </button>
 
                 </div>
             )}
 
         </div>
+
+        
     );
 }

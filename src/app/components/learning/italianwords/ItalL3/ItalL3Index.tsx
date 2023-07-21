@@ -2,13 +2,13 @@
 
 import {useState} from 'react'
 import Image from 'next/Image'
-import DownArrow from 'src/app/components/learning/spanishwords/DownArrow.png'
-import {SpanL1C1} from './SpanL1C1';
-import {SpanL1C2} from './SpanL1C2';
-import {SpanL1C3} from './SpanL1C3';
-import {SpanL1C4} from './SpanL1C4';
+import DownArrow from 'src/app/components/learning/Spanishwords/DownArrow.png'
+import {ItalL3C1} from './ItalL3C1';
+import {ItalL3C2} from './ItalL3C2';
+import {ItalL3C3} from './ItalL3C3';
+import {ItalL3C4} from './ItalL3C4';
 
-export function SpanL1Index({isLessonActive, onShowLesson, unShowLesson}){
+export function ItalL3Index({isLessonActive, onShowLesson, unShowLesson}){
     
     const [activeIndex, setActiveIndex] = useState(0);
 
@@ -29,19 +29,19 @@ export function SpanL1Index({isLessonActive, onShowLesson, unShowLesson}){
 
 
                     <div class="mt-8 grid grid-cols-4 space-x-3 text-2xl">
-                        <SpanL1C1
+                        <ItalL3C1
                         isActive={activeIndex === 1}
                         onShow={() => setActiveIndex(1)}
                         unShow={() => setActiveIndex(0)}/>
-                        <SpanL1C2
+                        <ItalL3C2
                         isActive={activeIndex === 2}
                         onShow={() => setActiveIndex(2)}
                         unShow={() => setActiveIndex(0)}/>
-                        <SpanL1C3
+                        <ItalL3C3
                         isActive={activeIndex === 3}
                         onShow={() => setActiveIndex(3)}
                         unShow={() => setActiveIndex(0)}/>
-                        <SpanL1C4
+                        <ItalL3C4
                         isActive={activeIndex === 4}
                         onShow={() => setActiveIndex(4)}
                         unShow={() => setActiveIndex(0)}/>
