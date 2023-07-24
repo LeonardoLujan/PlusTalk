@@ -28,7 +28,7 @@ export function ItalL1BIndex({isLessonActive, onShowLesson, unShowLesson}){
                     </div>
 
 
-                    <div class="mt-8 grid grid-cols-4 space-x-3 text-2xl">
+                    <div class="grid grid-cols-4 space-x-3 text-2xl">
                         <ItalL1BC1
                         isActive={activeIndex === 1}
                         onShow={() => setActiveIndex(1)}

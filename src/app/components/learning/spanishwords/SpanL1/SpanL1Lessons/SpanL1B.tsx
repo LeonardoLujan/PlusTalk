@@ -1,23 +1,26 @@
 
+type Lesson = {
+    id: number;
+    ephrase: string;
+    sphrase: string;
+};
+
+
 export const spanishlesson1B = [{
     id: 1,
-    ephrase: 'Hello',
-    iphrase: "Hola",
-    pronunciation: "Oh-Lah",
+    ephrase: 'Excuse Me',
+    sphrase: "Disculpe",
       
 }, {
     id: 2,
-    ephrase: "What's your name?",
-    iphrase: "Como te llamas?",
-    pronunciation: "Coh-mo te yah-mas",
+    ephrase: "Nice to meet you",
+    sphrase: "Mucho Gusto",
 }, {
     id: 3,
-    ephrase: 'My name is ...',
-    iphrase: "Me llamo ...",
-    pronunciation: "Meh ya-moh"
+    ephrase: "How's it going?",
+    sphrase: "Como va?",
 }, {
     id: 4,
-    ephrase: 'How are you?',
-    iphrase: "Como estas?",
-    pronunciation: "Coh-mo eh-st-ahs"
+    ephrase: 'See you',
+    sphrase: "Nos vemos",
 }]

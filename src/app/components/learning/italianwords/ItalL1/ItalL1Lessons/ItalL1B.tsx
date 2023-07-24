@@ -1,3 +1,11 @@
+
+type Lesson = {
+    id: number;
+    ephrase: string;
+    iphrase: string;
+};
+
+
 export const italianlesson1B = [{
     id: 1,
     ephrase: 'Excuse Me',
