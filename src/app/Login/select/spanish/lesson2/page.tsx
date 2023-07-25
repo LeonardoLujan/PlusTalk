@@ -2,7 +2,7 @@ import SpanL2NewIndex from 'src/app/components/learning/spanishwords/SpanL2/Span
 
 export default function SpanLesson2() {
     return(
-        <div class="text-black">
+        <div class="text-black justify-center p-8">
             <SpanL2NewIndex/>
         
         </div>

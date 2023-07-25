@@ -7,7 +7,7 @@ export function ItalL3CC1({isActive, onShow, unShow})
             {isActive ? (
                 <div>
                 
-                    <div class="text-4xl " onClick={unShow}>{italianlesson3C[0].iphrase}</div>
+                    <div class="text-4xl" onClick={unShow}>{italianlesson3C[0].iphrase}</div>
                     
                     <div onClick={unShow}>{italianlesson3C[0].pronunciation}</div>
 

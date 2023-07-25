@@ -3,7 +3,7 @@ import ItalL2NewIndex from 'src/app/components/learning/italianwords/ItalL2/Ital
 
 export default function ItalLesson2() {
     return(
-        <div class="text-black">
+        <div class="text-black justify-center p-8">
             
             
                 <ItalL2NewIndex/>
