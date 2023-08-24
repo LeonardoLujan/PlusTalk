@@ -9,18 +9,18 @@ type Lesson = {
 export const portugueselesson1D = [{
     id: 1,
     ephrase: 'Welcome',
-    iphrase: "Bem-vindo",
+    pphrase: "Bem-vindo",
       
 }, {
     id: 2,
     ephrase: "Have a nice day",
-    iphrase: "Tenha um bom dia",
+    pphrase: "Tenha um bom dia",
 }, {
     id: 3,
     ephrase: "Thank you",
-    iphrase: "Obrigado",
+    pphrase: "Obrigado",
 }, {
     id: 4,
     ephrase: "Good afternoon",
-    iphrase: "Boa tarde",
+    pphrase: "Boa tarde",
 }]

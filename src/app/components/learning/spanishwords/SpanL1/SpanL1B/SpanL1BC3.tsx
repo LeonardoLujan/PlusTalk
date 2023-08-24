@@ -7,7 +7,7 @@ export function SpanL1BC3({isActive, onShow, unShow})
             {isActive ? (
                 <div>
                 
-                    <div class="text-4xl " onClick={unShow}>{spanishlesson1B[2].iphrase}</div>
+                    <div class="text-4xl " onClick={unShow}>{spanishlesson1B[2].sphrase}</div>
                     
                     <div onClick={unShow}>{spanishlesson1B[2].pronunciation}</div>
 

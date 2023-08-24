@@ -2,18 +2,18 @@
 export const spanishlesson1D = [{
     id: 1,
     ephrase: 'Welcome',
-    iphrase: "Bienvenidos",
+    sphrase: "Bienvenidos",
       
 }, {
     id: 2,
     ephrase: "Have a nice day",
-    iphrase: "Que tenga un buen dia",
+    sphrase: "Que tenga un buen dia",
 }, {
     id: 3,
     ephrase: "Thank you",
-    iphrase: "Gracias",
+    sphrase: "Gracias",
 }, {
     id: 4,
     ephrase: "Good afternoon",
-    iphrase: "Buenas tardes",
+    sphrase: "Buenas tardes",
 }]
