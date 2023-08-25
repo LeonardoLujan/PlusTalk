@@ -10,22 +10,27 @@ About:
 
 PlusTalk aims to teach users different languages by teaching users various phrases based on specific categories (lessons), such as "Greetings & Introductions", "Asking & Answering Questions", etc...
 
-Languages currently available - Spanish, Portuguese, Hindi & Italian
+Languages currently available -
+4 lessons each with 4 sublessons with 4 phrases each: Spanish, Portuguese, & Italian (As a spanish speaker it was quite straightforward to cross-reference each of these and ensure they are appropriate translations)
+
+4 lessons with only 1 sublesson with 4 phrases each: Hindi (I've yet to find a Hindi speaker to cross reference them)
+
 
 Resources used to build: Videos from The Net Ninja's Material UI tutorial on youtube is what I initially used to start the project, to set up basic react router and using card components. Eventually moved on to the React Documentation & Stack Overflow to solve any errors as they came up. React Documentation was used for the Accordion style functionality displayed on each language page to toggle each lesson, and also to toggle each card.
 
-Commands for running: "Npm start" - start general frontend (localhost: default) "json-server --watch data/UserCreatedNotes.json --port 8000" to load json-server
+Commands for running: "Npm Run Dev" - like any NextJS Project
 
-***Create A Note feature from Create button on Spanish page is currently being worked on, this part REQUIRES JSON SERVER COMMAND TO RUN
+***Create A Note feature is currently being worked on, have not copied it from the old PlusTalk repository (Private on my GitHub)
 
-^^Still figuring out how to connect to backend(repo not on GitHub) via API, that is one of the most important tasks I seek to do
 
 Folder Description:
 
-Components are in /src/Components file, separated based on type
+Components are in /components folder with three options, /images, /learning and /select
 
-/Banner - Components related specifically to top of banner /Create Account - Components for the create.js/login.js page /Language - Images/ Images made into components for use among the project /Learning (Most Populated folder) - all the components for rendering the various lessons, such as translations, the indivdual cards, and the nav bar (/Horizontal) /Login Components - similar to Create Account
+/learning : Most Populated folder: has all the components related to words from each of the languages, as well as the components that are spread among the languages (NavBar)
 
-File type explanation: Some files (Mainly the ones in /CreateCard) are in TypeScript. I want to move all the components into TypeScript in the future (because I want to implement type checking feature to catch bugs and in general make code more robust). As of right now though, all the other files are in .jsx or .js because I have only recently found out about TypeScript (As of 7/17/2023).
+/select: Only has components related to the initial select page function
+
+/images: Only has the Plus Talk Logo
 
 Contact Info: I look forward to connecting with more developers of all experience levels & I am eager for any advice regarding how to improve as a developer, LinkedIn is "https://www.linkedin.com/in/leonardolujan/" or on GitHub profile page.
