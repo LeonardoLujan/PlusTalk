@@ -10,13 +10,13 @@ export function PortugueseLink() {
         
     const path = usePathname()
     
-    let mainpath = path.slice(14, -1)
-    let isPortuguese = path.slice(0, 20)
+    let mainpath = path.slice(8, -1)
+    let isPortuguese = path.slice(0, 14)
     
 
     return(
         <div class="p-1 text-black text-3xl flex justify-center items-center font-medium">
-            {isPortuguese === "/Login/select/portug" ?
+            {isPortuguese === "/select/portug" ?
                 (   
                 <div>
                     <div class="p-2 px-5 border-4 rounded-xl border-solid border-sky-300 flex justify-center items-center">
@@ -24,14 +24,14 @@ export function PortugueseLink() {
                         <Image class="rounded-full px-3" src={BrazilFlag} height={60} width={60}/>
                     </div>
                     <div>
-                            {mainpath != "portuguese/lesson" ? (
+                            {mainpath === "portugues" ? (
                                     <div>
                                         
                                     </div>
                             ): (
                                 <div class="text-base ml-10 mt-4">
                                     <div>
-                                        {path === "/Login/select/portuguese/lesson1" ? (
+                                        {path === "/select/portuguese/lesson1" ? (
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
@@ -39,7 +39,7 @@ export function PortugueseLink() {
 
                                         </div>
                                         ) : (
-                                            <Link href="/Login/select/portuguese/lesson1">
+                                            <Link href="/select/portuguese/lesson1">
                                             Lesson 1
                                             </Link>
 
@@ -48,7 +48,7 @@ export function PortugueseLink() {
                                         }
                                     </div>
                                     <div>
-                                        {path === "/Login/select/portuguese/lesson2" ? (
+                                        {path === "/select/portuguese/lesson2" ? (
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
@@ -56,7 +56,7 @@ export function PortugueseLink() {
 
                                         </div>
                                         ) : (
-                                            <Link href="/Login/select/portuguese/lesson2">
+                                            <Link href="/select/portuguese/lesson2">
                                             Lesson 2
                                             </Link>
 
@@ -65,7 +65,7 @@ export function PortugueseLink() {
                                         }
                                     </div>
                                     <div>
-                                        {path === "/Login/select/portuguese/lesson3" ? (
+                                        {path === "/select/portuguese/lesson3" ? (
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
@@ -73,7 +73,7 @@ export function PortugueseLink() {
 
                                         </div>
                                         ) : (
-                                            <Link href="/Login/select/portuguese/lesson3">
+                                            <Link href="/select/portuguese/lesson3">
                                             Lesson 3
                                             </Link>
 
@@ -82,7 +82,7 @@ export function PortugueseLink() {
                                         }
                                     </div>
                                     <div>
-                                        {path === "/Login/select/portuguese/lesson4" ? (
+                                        {path === "/select/portuguese/lesson4" ? (
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
@@ -90,7 +90,7 @@ export function PortugueseLink() {
 
                                         </div>
                                         ) : (
-                                            <Link href="/Login/select/portuguese/lesson4">
+                                            <Link href="/select/portuguese/lesson4">
                                             Lesson 4
                                             </Link>
 
@@ -111,7 +111,7 @@ export function PortugueseLink() {
                     <div>
                         <div class="flex justify-center items-center">
             
-                            <Link href="/Login/select/portuguese"> Portuguese</Link>
+                            <Link href="/select/portuguese"> Portuguese</Link>
                             <Image class="rounded-full px-3" src={BrazilFlag} height={60} width={60}/> 
 
                         </div>

@@ -8,13 +8,14 @@ import SpainFlagCropped from 'src/app/components/select/SpainFlagCropped.png'
 export function SpanishLink() {
 
     const path = usePathname()
-    let mainpath = path.slice(14, -1)
-    let isSpanish = path.slice(0, 20)
+    let mainpath = path.slice(8, -1)
+    let isSpanish = path.slice(0, 14)
+    
 
     
     return(
         <div class="p-1 text-black text-3xl flex justify-center items-center font-medium">
-            {isSpanish === "/Login/select/spanis" ?
+            {isSpanish === "/select/spanis" ?
                 (   
                 <div>
                     <div class="p-2 px-5 border-4 rounded-xl border-solid border-sky-300 flex justify-center items-center">
@@ -29,7 +30,7 @@ export function SpanishLink() {
                             ): (
                                 <div class="text-base ml-10 mt-4">
                                     <div>
-                                        {path === "/Login/select/spanish/lesson1" ? (
+                                        {path === "/select/spanish/lesson1" ? (
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
@@ -37,7 +38,7 @@ export function SpanishLink() {
 
                                         </div>
                                         ) : (
-                                            <Link href="/Login/select/spanish/lesson1">
+                                            <Link href="/select/spanish/lesson1">
                                             Lesson 1
                                             </Link>
 
@@ -46,7 +47,7 @@ export function SpanishLink() {
                                         }
                                     </div>
                                     <div>
-                                        {path === "/Login/select/spanish/lesson2" ? (
+                                        {path === "/select/spanish/lesson2" ? (
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
@@ -54,7 +55,7 @@ export function SpanishLink() {
 
                                         </div>
                                         ) : (
-                                            <Link href="/Login/select/spanish/lesson2">
+                                            <Link href="/select/spanish/lesson2">
                                             Lesson 2
                                             </Link>
 
@@ -63,7 +64,7 @@ export function SpanishLink() {
                                         }
                                     </div>
                                     <div>
-                                        {path === "/Login/select/spanish/lesson3" ? (
+                                        {path === "/select/spanish/lesson3" ? (
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
@@ -71,7 +72,7 @@ export function SpanishLink() {
 
                                         </div>
                                         ) : (
-                                            <Link href="/Login/select/spanish/lesson3">
+                                            <Link href="/select/spanish/lesson3">
                                             Lesson 3
                                             </Link>
 
@@ -80,7 +81,7 @@ export function SpanishLink() {
                                         }
                                     </div>
                                     <div>
-                                        {path === "/Login/select/spanish/lesson4" ? (
+                                        {path === "/select/spanish/lesson4" ? (
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
@@ -88,7 +89,7 @@ export function SpanishLink() {
 
                                         </div>
                                         ) : (
-                                            <Link href="/Login/select/spanish/lesson4">
+                                            <Link href="/select/spanish/lesson4">
                                             Lesson 4
                                             </Link>
 
@@ -109,7 +110,7 @@ export function SpanishLink() {
                     <div>
                         <div class="flex justify-center items-center">
             
-                            <Link href="/Login/select/spanish"> Spanish</Link>
+                            <Link href="/select/spanish"> Spanish</Link>
                             <Image class="rounded-full px-3" src={SpainFlagCropped} height={60} width={60}/> 
 
                         </div>

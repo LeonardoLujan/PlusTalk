@@ -15,7 +15,7 @@ export function HindiLink() {
 
     return(
         <div class="p-1 text-black text-3xl flex justify-center items-center font-medium">
-            { path === "/Login/select/hindi" ?
+            { path === "/select/hindi" ?
                 (
                     <div class="p-5 border-4 rounded-xl border-solid border-sky-300 flex justify-center items-center">
                         <h1 class=""> Hindi</h1>
@@ -25,7 +25,7 @@ export function HindiLink() {
                 ) : (
                     <div class="flex justify-center items-center">
         
-                        <Link href="/Login/select/hindi"> Hindi</Link>
+                        <Link href="/select/hindi"> Hindi</Link>
                         <Image class="rounded-full px-3" src={IndianFlag} height={60} width={60}/> 
                     </div>
                 )   

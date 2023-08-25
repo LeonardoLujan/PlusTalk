@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Welcome to PlusTalk!
 
-## Getting Started
+Project Introduction:
 
-First, run the development server:
+This project was originally started at a hackathon in March 2023, alongside collaborator Ricky Titanti (UI Designer for the PlusTalk App) but due to my then inexperience with react, and getting busy with University, I was unable to continue developing it until June 2023.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This project is my first website ever built (played around in some HTML/CSS previously but never took web development serious until now). To experienced developers some of the code may seem sloppy or unoptimized but I am using this project to grow and learn.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+About:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+PlusTalk aims to teach users different languages by teaching users various phrases based on specific categories (lessons), such as "Greetings & Introductions", "Asking & Answering Questions", etc...
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Languages currently available - Spanish, Portuguese, Hindi & Italian
 
-## Learn More
+Resources used to build: Videos from The Net Ninja's Material UI tutorial on youtube is what I initially used to start the project, to set up basic react router and using card components. Eventually moved on to the React Documentation & Stack Overflow to solve any errors as they came up. React Documentation was used for the Accordion style functionality displayed on each language page to toggle each lesson, and also to toggle each card.
 
-To learn more about Next.js, take a look at the following resources:
+Commands for running: "Npm start" - start general frontend (localhost: default) "json-server --watch data/UserCreatedNotes.json --port 8000" to load json-server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+***Create A Note feature from Create button on Spanish page is currently being worked on, this part REQUIRES JSON SERVER COMMAND TO RUN
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+^^Still figuring out how to connect to backend(repo not on GitHub) via API, that is one of the most important tasks I seek to do
 
-## Deploy on Vercel
+Folder Description:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Components are in /src/Components file, separated based on type
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+/Banner - Components related specifically to top of banner /Create Account - Components for the create.js/login.js page /Language - Images/ Images made into components for use among the project /Learning (Most Populated folder) - all the components for rendering the various lessons, such as translations, the indivdual cards, and the nav bar (/Horizontal) /Login Components - similar to Create Account
+
+File type explanation: Some files (Mainly the ones in /CreateCard) are in TypeScript. I want to move all the components into TypeScript in the future (because I want to implement type checking feature to catch bugs and in general make code more robust). As of right now though, all the other files are in .jsx or .js because I have only recently found out about TypeScript (As of 7/17/2023).
+
+Contact Info: I look forward to connecting with more developers of all experience levels & I am eager for any advice regarding how to improve as a developer, LinkedIn is "https://www.linkedin.com/in/leonardolujan/" or on GitHub profile page.

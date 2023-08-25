@@ -7,10 +7,10 @@ import Link from 'next/link';
 
 export default function Flags() {
     return(
-        <div class="flext justify-center p-6">
+        <div class="justify-center p-6">
         
 
-            <div class="flex justify-center">
+            <div class="flex justify-center text-4xl font-semibold">
                 <h1> Select a Language: </h1>
             </div>
 
@@ -18,7 +18,7 @@ export default function Flags() {
             
                 <div class="px-3">
                     <div>
-                        <Link href="/Login/select/italian">
+                        <Link href="/select/italian">
 
                             <Image class="border-4 rounded-full" height={235} width={235} src={ItalianFlag2} alt="Italian Flag"/>
                         </Link>
@@ -30,7 +30,7 @@ export default function Flags() {
                 </div>
 
                 <div class="px-3"> 
-                    <Link href="/Login/select/spanish">
+                    <Link href="/select/spanish">
                         <Image class="border-4 rounded-full" height={235} width={235} src={SpainFlag} alt="Spain Flag"/>
                     </Link>
                     <h1 class="flex justify-center">Spanish</h1>
@@ -38,7 +38,7 @@ export default function Flags() {
 
                 </div>     
                 <div class="px-3"> 
-                    <Link href="/Login/select/portuguese">
+                    <Link href="/select/portuguese">
                         <Image class="border-4 rounded-full" height={235} width={235} src={BrazilFlag} alt="Spain Flag"/>
                     </Link>
                     <h1 class="flex justify-center">Portuguese</h1>
@@ -46,7 +46,7 @@ export default function Flags() {
 
                 </div> 
                 <div class="px-3"> 
-                    <Link href="/Login/select/hindi">
+                    <Link href="/select/hindi">
                         <Image class="border-4 rounded-full" height={235} width={235} src={IndianFlag} alt="Spain Flag"/>
                     </Link>
                     <h1 class="flex justify-center">Hindi</h1>
