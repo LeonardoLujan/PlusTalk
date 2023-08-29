@@ -11,7 +11,7 @@ export const spanishlesson4B = [{
       
 }, {
     id: 2,
-    ephrase: "Do you want to have dinner together?",
+    ephrase: "Do you want to dine together?",
     sphrase: "¿Quieres cenar juntos?",
 }, {
     id: 3,

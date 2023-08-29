@@ -2,15 +2,15 @@ import Link from 'next/Link';
 
 export default function SelectSpan() {
     return(
-        <div class="grid grid-cols-2 grid-rows-2 text-black text-5xl">
+        <div class="grid grid-cols-2 grid-rows-2 text-black text-6xl">
                 <div class="col-span-1 row-span-1 col-start-1 row-start-1 my-10 mx-2 border-4 rounded-xl">
                     <Link href="/select/spanish/lesson1">
-                        Lesson 1: Greetings & Introductions
+                        Lesson 1: Greetings
                     </Link>
                 </div>
                 <div class="col-span-1 row-span-1 col-start-2 row-start-1 my-10 mx-2 border-4 rounded-xl">
                     <Link href="/select/spanish/lesson2">
-                        Lesson 2: Asking & Answering Questions
+                        Lesson 2: Questions
                     </Link>
                         
                 </div>

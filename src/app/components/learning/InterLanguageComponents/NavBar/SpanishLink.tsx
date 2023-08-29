@@ -34,12 +34,12 @@ export function SpanishLink() {
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
-                                            Lesson 1
+                                            Greetings
 
                                         </div>
                                         ) : (
                                             <Link href="/select/spanish/lesson1">
-                                            Lesson 1
+                                            Greetings
                                             </Link>
 
                                         )
@@ -51,12 +51,12 @@ export function SpanishLink() {
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
-                                            Lesson 2
+                                            Questions
 
                                         </div>
                                         ) : (
                                             <Link href="/select/spanish/lesson2">
-                                            Lesson 2
+                                            Questions
                                             </Link>
 
                                         )
@@ -68,12 +68,12 @@ export function SpanishLink() {
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
-                                            Lesson 3
+                                            Getting Around
 
                                         </div>
                                         ) : (
                                             <Link href="/select/spanish/lesson3">
-                                            Lesson 3
+                                            Getting Around
                                             </Link>
 
                                         )
@@ -85,12 +85,12 @@ export function SpanishLink() {
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
-                                            Lesson 4
+                                            Making Plans
 
                                         </div>
                                         ) : (
                                             <Link href="/select/spanish/lesson4">
-                                            Lesson 4
+                                            Making Plans
                                             </Link>
 
                                         )

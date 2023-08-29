@@ -6,8 +6,8 @@ type Lesson = {
 
 export const spanishlesson4A = [{
     id: 1,
-    ephrase: 'What do you like to do in your free time?',
-    sphrase: "¿Qué te gusta hacer en tu tiempo libre?",
+    ephrase: 'What do you do in your free time?',
+    sphrase: "¿Qué haces en tu tiempo libre?",
       
 }, {
     id: 2,

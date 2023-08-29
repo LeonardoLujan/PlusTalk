@@ -38,13 +38,13 @@ export function ItalianLink() {
                                         {path === "/select/italian/lesson1" ? (
 
                                         
-                                        <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
-                                            Lesson 1
+                                        <div class=" border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
+                                            Greetings
 
                                         </div>
                                         ) : (
                                             <Link href="/select/italian/lesson1">
-                                            Lesson 1
+                                            Greetings
                                             </Link>
 
                                         )
@@ -56,12 +56,12 @@ export function ItalianLink() {
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
-                                            Lesson 2
+                                            Questions
 
                                         </div>
                                         ) : (
                                             <Link href="/select/italian/lesson2">
-                                            Lesson 2
+                                            Questions 
                                             </Link>
 
                                         )
@@ -73,12 +73,12 @@ export function ItalianLink() {
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
-                                            Lesson 3
+                                            Getting Around
 
                                         </div>
                                         ) : (
                                             <Link href="/select/italian/lesson3">
-                                            Lesson 3
+                                            Getting Around
                                             </Link>
 
                                         )
@@ -90,12 +90,12 @@ export function ItalianLink() {
 
                                         
                                         <div class="border-2 rounded-xl border-solid border-sky-300 flex justify-center items-center">
-                                            Lesson 4
+                                            Making Plans
 
                                         </div>
                                         ) : (
                                             <Link href="/select/italian/lesson4">
-                                            Lesson 4
+                                            Making Plans
                                             </Link>
 
                                         )

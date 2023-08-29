@@ -14,7 +14,7 @@ export function PortL4DIndex({isLessonActive, onShowLesson, unShowLesson}){
 
     return(
 
-        <div class="flex justify-center pb-8 px-1 w-full">
+        <div class="flex justify-center px-1 w-full">
             {isLessonActive ? (
                 <div class="ml-10 shadow-xl w-full rounded">
                     <div class="flex items-center rounded">
@@ -28,7 +28,7 @@ export function PortL4DIndex({isLessonActive, onShowLesson, unShowLesson}){
                     </div>
 
 
-                    <div class="mt-8 grid grid-cols-4 space-x-3 text-2xl">
+                    <div class="grid grid-cols-4 space-x-3 text-2xl">
                         <PortL4DC1
                         isActive={activeIndex === 1}
                         onShow={() => setActiveIndex(1)}

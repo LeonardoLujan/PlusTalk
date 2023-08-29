@@ -1,7 +1,7 @@
 export const portugueselesson4A = [{
     id: 1,
-    ephrase: 'What do you like to do in your free time?',
-    pphrase: "O que você gosta de fazer no seu tempo livre?",
+    ephrase: 'What do you do in your free time?',
+    pphrase: "O que você faz no seu tempo livre?",
       
 }, {
     id: 2,
