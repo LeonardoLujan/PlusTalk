@@ -1,7 +1,7 @@
 "use client"
 
 import {useState} from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import DownArrow from 'src/app/components/learning/spanishwords/DownArrow.png'
 import {ItalL1DC1} from './ItalL1DC1.tsx';
 import {ItalL1DC2} from './ItalL1DC2.tsx';
