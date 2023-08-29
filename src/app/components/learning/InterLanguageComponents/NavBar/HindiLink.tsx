@@ -1,9 +1,9 @@
 "use client"
 
 import {usePathname} from 'next/navigation';
-import Link from 'next/Link';
-import Image from 'next/Image'
-import IndianFlag from 'src/app/components/select/IndianFlag.png'
+import Link from 'next/link';
+import Image from 'next/image';
+import IndianFlag from 'src/app/components/select/IndianFlag.png';
 
 
 export function HindiLink() {

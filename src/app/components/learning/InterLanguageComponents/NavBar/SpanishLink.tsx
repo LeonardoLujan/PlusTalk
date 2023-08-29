@@ -1,8 +1,8 @@
 "use client"
 
 import {usePathname} from 'next/navigation';
-import Link from 'next/Link';
-import Image from 'next/Image'
+import Link from 'next/link';
+import Image from 'next/image';
 import SpainFlagCropped from 'src/app/components/select/SpainFlagCropped.png'
 
 export function SpanishLink() {

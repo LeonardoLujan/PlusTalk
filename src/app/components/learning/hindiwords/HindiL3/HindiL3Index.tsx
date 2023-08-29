@@ -1,8 +1,8 @@
 "use client"
 
 import {useState} from 'react'
-import Image from 'next/Image'
-import DownArrow from 'src/app/components/learning/Spanishwords/DownArrow.png'
+import Image from 'next/image'
+import DownArrow from 'src/app/components/learning/spanishwords/DownArrow.png'
 import {HindiL3C1} from './HindiL3C1';
 import {HindiL3C2} from './HindiL3C2';
 import {HindiL3C3} from './HindiL3C3';

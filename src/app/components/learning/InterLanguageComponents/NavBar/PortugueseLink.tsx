@@ -1,9 +1,9 @@
 "use client"
 
 import {usePathname} from 'next/navigation';
-import Link from 'next/Link';
-import Image from 'next/Image'
-import BrazilFlag from 'src/app/components/select/Brazil2.png'
+import Link from 'next/link';
+import Image from 'next/image';
+import BrazilFlag from 'src/app/components/select/Brazil2.png';
 
 
 export function PortugueseLink() {
