@@ -3,18 +3,18 @@ import {italianlesson1B} from 'src/app/components/learning/italianwords/ItalL1/I
 export function ItalL1BC1({isActive, onShow, unShow})
         {
     return(
-        <div class="shadow-sm my-3 rounded px-3">
+        <div className="shadow-sm my-3 rounded px-3">
             {isActive ? (
                 <div>
                 
-                    <div class="text-4xl " onClick={unShow}>{italianlesson1B[0].iphrase}</div>
+                    <div className="text-4xl " onClick={unShow}>{italianlesson1B[0].iphrase}</div>
                     
                     <div onClick={unShow}>{italianlesson1B[0].pronunciation}</div>
 
                 </div>
 
             ) : (
-                <div class="text-4xl" onClick={onShow}>{italianlesson1B[0].ephrase}</div>
+                <div className="text-4xl" onClick={onShow}>{italianlesson1B[0].ephrase}</div>
 
 
             )}
