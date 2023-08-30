@@ -5,7 +5,7 @@ export default function Banner() {
     return(
         <div className="flex justify-center bg-sky-400 h-28 ">
             <Logo/>
-            <p class="text-4xl font-mono py-8 px-2"> PlusTalk</p>
+            <p className="text-4xl font-mono py-8 px-2"> PlusTalk</p>
                 
 
         </div>
