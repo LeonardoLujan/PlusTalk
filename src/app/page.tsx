@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div class="text-black p-6 ">
     
-      <div class="text-4xl font-semibold justify-center flex items-center">
+      <div class="text-5xl font-semibold justify-center flex items-center">
         Welcome to PlusTalk!
       </div>
     
