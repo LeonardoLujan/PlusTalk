@@ -1,4 +1,4 @@
-import ItalL1NewIndex from 'src/app/components/learning/Italianwords/ItalL1/ItalL1NewIndex.tsx'
+import ItalL1NewIndex from 'src/app/components/learning/italianwords/ItalL1/ItalL1NewIndex.tsx'
 
 export default function ItalLesson1() {
     return(

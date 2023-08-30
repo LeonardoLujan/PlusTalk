@@ -1,4 +1,4 @@
-import Image from 'next/Image'
+import Image from 'next/image'
 import ItalianFlag2 from './ItalianFlag2.jpg'
 import SpainFlag from './SpainFlagCropped.png'
 import BrazilFlag from './Brazil2.png'
