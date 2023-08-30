@@ -18,7 +18,7 @@ export function HindiLink() {
             { path === "/select/hindi" ?
                 (
                     <div className="p-5 border-4 rounded-xl border-solid border-sky-300 flex justify-center items-center">
-                        <h1 class=""> Hindi</h1>
+                        <h1 className=""> Hindi</h1>
                         <Image className="rounded-full px-3" src={IndianFlag} height={60} width={60}/>
                     </div>
                 
