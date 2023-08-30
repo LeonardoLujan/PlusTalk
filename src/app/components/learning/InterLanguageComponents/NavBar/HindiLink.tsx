@@ -19,7 +19,7 @@ export function HindiLink() {
                 (
                     <div className="p-5 border-4 rounded-xl border-solid border-sky-300 flex justify-center items-center">
                         <h1 className=""> Hindi</h1>
-                        <Image className="rounded-full px-3" src={IndianFlag} height={60} width={60}/>
+                        <Image className="rounded-full px-3" alt ="Indian Flag" src={IndianFlag} height={60} width={60}/>
                     </div>
                 
                 ) : (
