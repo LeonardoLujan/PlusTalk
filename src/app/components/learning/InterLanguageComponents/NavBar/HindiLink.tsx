@@ -26,7 +26,7 @@ export function HindiLink() {
                     <div className="flex justify-center items-center">
         
                         <Link href="/select/hindi"> Hindi</Link>
-                        <Image className="rounded-full px-3" src={IndianFlag} height={60} width={60}/> 
+                        <Image className="rounded-full px-3" alt="Indian Flag" src={IndianFlag} height={60} width={60}/> 
                     </div>
                 )   
 
