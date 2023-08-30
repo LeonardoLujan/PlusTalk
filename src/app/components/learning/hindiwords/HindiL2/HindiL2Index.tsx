@@ -7,28 +7,38 @@ import {HindiL2C1} from './HindiL2C1';
 import {HindiL2C2} from './HindiL2C2';
 import {HindiL2C3} from './HindiL2C3';
 import {HindiL2C4} from './HindiL2C4';
+import {Lesson} from '../IndexHindi';
 
-export function HindiL2Index({isLessonActive, onShowLesson, unShowLesson}){
+export interface Card {
+    isActive: boolean;
+    onShow: () => void;
+    unShow: () => void;
+}
+
+export function HindiL2Index({isLessonActive, onShowLesson, unShowLesson}: Lesson){
     
+
+    
+
     const [activeIndex, setActiveIndex] = useState(0);
 
     return(
 
         <div className="flex justify-center pb-8 px-1 w-full">
             {isLessonActive ? (
-                <div class="ml-10 shadow-xl w-full">
-                    <div class="flex items-center rounded">
+                <div className="ml-10 shadow-xl w-full">
+                    <div className="flex items-center rounded">
 
-                        <h1 class="text-3xl mt-2">Lesson 2: Asking & Answering Questions</h1>
+                        <h1 className="text-3xl mt-2">Lesson 2: Asking & Answering Questions</h1>
 
-                        <button class="mt-2 rounded" onClick={unShowLesson}>
-                            <Image src={DownArrow} height={40} width={40}/>
+                        <button className="mt-2 rounded" onClick={unShowLesson}>
+                            <Image alt="DropDown Arrow" src={DownArrow} height={40} width={40}/>
                         </button>
 
                     </div>
 
 
-                    <div class="grid grid-cols-4 space-x-3 text-2xl">
+                    <div className="grid grid-cols-4 space-x-3 text-2xl">
                         <HindiL2C1
                         isActive={activeIndex === 1}
                         onShow={() => setActiveIndex(1)}
@@ -50,13 +60,13 @@ export function HindiL2Index({isLessonActive, onShowLesson, unShowLesson}){
                     </div>
                 </div>
             ) : (
-                <div class="ml-10 shadow-lg rounded flex items-center w-full">
-                    <h1 class="text-3xl mt-1">
+                <div className="ml-10 shadow-lg rounded flex items-center w-full">
+                    <h1 className="text-3xl mt-1">
                         Lesson 2: Asking & Answering Questions
                     </h1>
 
-                    <button class="mt-2 rounded" onClick={onShowLesson}>
-                        <Image src={DownArrow} height={40} width={40}/>
+                    <button className="mt-2 rounded" onClick={onShowLesson}>
+                        <Image alt="DropDown Arrow" src={DownArrow} height={40} width={40}/>
                     </button>
 
                 </div>

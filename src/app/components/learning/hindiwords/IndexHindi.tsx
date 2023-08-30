@@ -7,6 +7,12 @@ import {HindiL2Index} from './HindiL2/HindiL2Index.tsx';
 import {HindiL3Index} from './HindiL3/HindiL3Index.tsx';
 import {HindiL4Index} from './HindiL4/HindiL4Index.tsx';
 
+export interface Lesson {
+    isLessonActive: boolean;
+    onShowLesson: () => void;
+    unShowLesson: () => void;
+}
+
 export default function IndexHindi() {
     
     const [activeLesson, setActiveLesson] = useState(1);

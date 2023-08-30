@@ -8,6 +8,12 @@ import {HindiL4C2} from './HindiL4C2';
 import {HindiL4C3} from './HindiL4C3';
 import {HindiL4C4} from './HindiL4C4';
 
+export interface Card {
+    isActive: boolean;
+    onShow: () => void;
+    unShow: () => void;
+}
+
 export function HindiL4Index({isLessonActive, onShowLesson, unShowLesson}){
     
     const [activeIndex, setActiveIndex] = useState(0);
