@@ -3,7 +3,7 @@ import logo from './plustalklogo.jpeg'
 
 export default function Logo() {
     return(
-        <Image height={100} class="rounded-full p-1" src={logo} alt="PlusTalk Logo" />
+        <Image height={100} className="rounded-full p-1" src={logo} alt="PlusTalk Logo" />
 
     )
 }
