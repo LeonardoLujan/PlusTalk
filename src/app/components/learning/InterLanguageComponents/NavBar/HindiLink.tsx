@@ -14,7 +14,7 @@ export function HindiLink() {
     
 
     return(
-        <div class="p-1 text-black text-3xl flex justify-center items-center font-medium">
+        <div className="p-1 text-black text-3xl flex justify-center items-center font-medium">
             { path === "/select/hindi" ?
                 (
                     <div class="p-5 border-4 rounded-xl border-solid border-sky-300 flex justify-center items-center">

@@ -11,7 +11,7 @@ export default function NavBar() {
 
 
     return(
-        <div class="sticky shadow-xl h-screen border-8 rounded-xl border-solid">
+        <div className="sticky shadow-xl h-screen border-8 rounded-xl border-solid">
         
             <div class="px-10 py-10">
                 <ItalianLink/>

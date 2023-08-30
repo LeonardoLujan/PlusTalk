@@ -19,7 +19,7 @@ export function ItalianLink() {
     
 
     return(
-        <div class="p-1 text-black text-3xl flex justify-center items-center font-medium">
+        <div className="p-1 text-black text-3xl flex justify-center items-center font-medium">
             {isItalian === "/select/italia" ?
                 (   
                 <div>

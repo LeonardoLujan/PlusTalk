@@ -14,7 +14,7 @@ export function HindiL2Index({isLessonActive, onShowLesson, unShowLesson}){
 
     return(
 
-        <div class="flex justify-center pb-8 px-1 w-full">
+        <div className="flex justify-center pb-8 px-1 w-full">
             {isLessonActive ? (
                 <div class="ml-10 shadow-xl w-full">
                     <div class="flex items-center rounded">

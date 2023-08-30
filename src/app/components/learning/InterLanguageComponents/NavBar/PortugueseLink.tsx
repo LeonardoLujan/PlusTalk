@@ -15,7 +15,7 @@ export function PortugueseLink() {
     
 
     return(
-        <div class="p-1 text-black text-3xl flex justify-center items-center font-medium">
+        <div className="p-1 text-black text-3xl flex justify-center items-center font-medium">
             {isPortuguese === "/select/portug" ?
                 (   
                 <div>
