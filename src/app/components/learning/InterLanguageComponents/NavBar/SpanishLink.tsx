@@ -20,7 +20,7 @@ export function SpanishLink() {
                 <div>
                     <div className="p-2 px-5 border-4 rounded-xl border-solid border-sky-300 flex justify-center items-center">
                         <h1 className="">  Spanish </h1>
-                        <Image className="rounded-full px-3" src={SpainFlagCropped} height={60} width={60}/>
+                        <Image className="rounded-full px-3" alt="Spanish Flag" src={SpainFlagCropped} height={60} width={60}/>
                     </div>
                     <div>
                             {mainpath != "spanish/lesson" ? (
@@ -111,7 +111,7 @@ export function SpanishLink() {
                         <div className="flex justify-center items-center">
             
                             <Link href="/select/spanish"> Spanish</Link>
-                            <Image className="rounded-full px-3" src={SpainFlagCropped} height={60} width={60}/> 
+                            <Image className="rounded-full px-3" alt="Spanish Flag" src={SpainFlagCropped} height={60} width={60}/> 
 
                         </div>
                         

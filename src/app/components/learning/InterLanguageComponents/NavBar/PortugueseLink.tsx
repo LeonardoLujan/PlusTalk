@@ -21,7 +21,7 @@ export function PortugueseLink() {
                 <div>
                     <div className="p-2 px-5 border-4 rounded-xl border-solid border-sky-300 flex justify-center items-center">
                         <h1 className="">  Portuguese </h1>
-                        <Image className="rounded-full px-3" src={BrazilFlag} height={60} width={60}/>
+                        <Image className="rounded-full px-3" alt="Italian Flag" src={BrazilFlag} height={60} width={60}/>
                     </div>
                     <div>
                             {mainpath === "portugues" ? (
@@ -112,7 +112,7 @@ export function PortugueseLink() {
                         <div className="flex justify-center items-center">
             
                             <Link href="/select/portuguese"> Portuguese</Link>
-                            <Image className="rounded-full px-3" src={BrazilFlag} height={60} width={60}/> 
+                            <Image className="rounded-full px-3" alt="Italian Flag" src={BrazilFlag} height={60} width={60}/> 
 
                         </div>
                         

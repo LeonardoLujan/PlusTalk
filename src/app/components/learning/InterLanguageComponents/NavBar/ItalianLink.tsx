@@ -25,7 +25,7 @@ export function ItalianLink() {
                 <div>
                     <div className="p-2 border-4 rounded-xl border-solid border-sky-300 flex justify-center items-center">
                         <h1 className="">  Italian </h1>
-                        <Image className="rounded-full px-3" src={ItalianFlag2} height={60} width={60}/>
+                        <Image className="rounded-full px-3" alt="Italian Flag" src={ItalianFlag2} height={60} width={60}/>
                     </div>
                     <div>
                             {mainpath != "italian/lesson" ? (
@@ -116,7 +116,7 @@ export function ItalianLink() {
                         <div className="flex justify-center items-center">
             
                             <Link href="/select/italian"> Italian</Link>
-                            <Image className="rounded-full px-3" src={ItalianFlag2} height={60} width={60}/> 
+                            <Image className="rounded-full px-3" alt="Italian Flag" src={ItalianFlag2} height={60} width={60}/> 
 
                         </div>
                         
