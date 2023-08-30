@@ -22,7 +22,7 @@
 /******/ 			return cachedModule.exports;
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 		let module = __webpack_module_cache__[moduleId] = {
 /******/ 			id: moduleId,
 /******/ 			loaded: false,
 /******/ 			exports: {}
@@ -330,7 +330,7 @@
 /******/ 		__webpack_require__.hmrD = currentModuleData;
 /******/ 		
 /******/ 		__webpack_require__.i.push(function (options) {
-/******/ 			var module = options.module;
+/******/ 			let module = options.module;
 /******/ 			var require = createRequire(options.require, options.id);
 /******/ 			module.hot = createModuleHotObject(options.id, module);
 /******/ 			module.parents = currentParents;
@@ -937,7 +937,7 @@
 /******/ 					var queueItem = queue.pop();
 /******/ 					var moduleId = queueItem.id;
 /******/ 					var chain = queueItem.chain;
-/******/ 					var module = __webpack_require__.c[moduleId];
+/******/ 					let module = __webpack_require__.c[moduleId];
 /******/ 					if (
 /******/ 						!module ||
 /******/ 						(module.hot._selfAccepted && !module.hot._selfInvalidated)
@@ -1103,7 +1103,7 @@
 /******/ 			var outdatedSelfAcceptedModules = [];
 /******/ 			for (var j = 0; j < outdatedModules.length; j++) {
 /******/ 				var outdatedModuleId = outdatedModules[j];
-/******/ 				var module = __webpack_require__.c[outdatedModuleId];
+/******/ 				let module = __webpack_require__.c[outdatedModuleId];
 /******/ 				if (
 /******/ 					module &&
 /******/ 					(module.hot._selfAccepted || module.hot._main) &&
@@ -1133,7 +1133,7 @@
 /******/ 					var queue = outdatedModules.slice();
 /******/ 					while (queue.length > 0) {
 /******/ 						var moduleId = queue.pop();
-/******/ 						var module = __webpack_require__.c[moduleId];
+/******/ 						let module = __webpack_require__.c[moduleId];
 /******/ 						if (!module) continue;
 /******/ 		
 /******/ 						var data = {};
@@ -1198,7 +1198,7 @@
 /******/ 					// call accept handlers
 /******/ 					for (var outdatedModuleId in outdatedDependencies) {
 /******/ 						if (__webpack_require__.o(outdatedDependencies, outdatedModuleId)) {
-/******/ 							var module = __webpack_require__.c[outdatedModuleId];
+/******/ 							let module = __webpack_require__.c[outdatedModuleId];
 /******/ 							if (module) {
 /******/ 								moduleOutdatedDependencies =
 /******/ 									outdatedDependencies[outdatedModuleId];
