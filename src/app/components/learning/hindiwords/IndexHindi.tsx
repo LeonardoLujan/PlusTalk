@@ -1,7 +1,7 @@
 "use client"
 
 import {useState} from 'react'
-import NavBar from 'src/app/components/learning/InterLanguageComponents//NavBar/NavBar.tsx'
+import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent';
 import {HindiL1Index} from './HindiL1/HindiL1Index.tsx';
 import {HindiL2Index} from './HindiL2/HindiL2Index.tsx';
 import {HindiL3Index} from './HindiL3/HindiL3Index.tsx';

@@ -1,7 +1,7 @@
 "use client"
 
 import {useState} from 'react'
-import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBar.tsx'
+import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent.tsx'
 import {ItalL2AIndex} from 'src/app/components/learning/italianwords/ItalL2/ItalL2A/ItalL2AIndex.tsx';
 import {ItalL2BIndex} from 'src/app/components/learning/italianwords/ItalL2/ItalL2B/ItalL2BIndex.tsx';
 import {ItalL2CIndex} from 'src/app/components/learning/italianwords/ItalL2/ItalL2C/ItalL2CIndex.tsx';

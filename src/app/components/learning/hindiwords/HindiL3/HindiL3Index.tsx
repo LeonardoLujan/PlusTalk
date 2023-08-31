@@ -30,7 +30,7 @@ export function HindiL3Index({isLessonActive, onShowLesson, unShowLesson}: Lesso
                         <h1 className="text-3xl mt-2">Lesson 3: Getting Around</h1>
 
                         <button className="mt-2 rounded" onClick={unShowLesson}>
-                            <Image src={DownArrow} height={40} width={40}/>
+                            <Image alt="Down Arrow" src={DownArrow} height={40} width={40}/>
                         </button>
 
                     </div>
@@ -64,7 +64,7 @@ export function HindiL3Index({isLessonActive, onShowLesson, unShowLesson}: Lesso
                     </h1>
 
                     <button className="mt-2 rounded" onClick={onShowLesson}>
-                        <Image src={DownArrow} height={40} width={40}/>
+                        <Image alt="Down Arrow" src={DownArrow} height={40} width={40}/>
                     </button>
 
                 </div>

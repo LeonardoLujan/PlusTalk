@@ -6,10 +6,6 @@ import {PortugueseLink} from './PortugueseLink.tsx';
 import {HindiLink} from './HindiLink.tsx';
 
 export default function NavBar() {
-    
-    
-
-
     return(
         <div className="sticky shadow-xl h-screen border-8 rounded-xl border-solid">
         
@@ -25,13 +21,6 @@ export default function NavBar() {
             <div className="px-10 py-10">
                 <HindiLink/>
             </div>
-
-            
-
-
-
-
-
         </div>
 
         

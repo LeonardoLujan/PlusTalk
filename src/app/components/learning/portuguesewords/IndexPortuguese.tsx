@@ -1,7 +1,7 @@
 "use client"
 
 import {useState} from 'react'
-import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBar.tsx'
+import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent.tsx'
 import SelectPort from './SelectPort.tsx';
 import {PortL1Index} from './PortL1/PortL1Index.tsx';
 import {PortL2Index} from './PortL2/PortL2Index.tsx';

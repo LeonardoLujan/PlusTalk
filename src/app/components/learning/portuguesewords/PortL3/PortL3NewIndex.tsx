@@ -1,7 +1,7 @@
 "use client"
 
 import {useState} from 'react'
-import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBar.tsx'
+import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent.tsx'
 import {PortL3AIndex} from 'src/app/components/learning/portuguesewords/PortL3/PortL3A/PortL3AIndex.tsx';
 import {PortL3BIndex} from 'src/app/components/learning/portuguesewords/PortL3/PortL3B/PortL3BIndex.tsx';
 import {PortL3CIndex} from 'src/app/components/learning/portuguesewords/PortL3/PortL3C/PortL3CIndex.tsx';

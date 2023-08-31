@@ -1,7 +1,7 @@
 "use client"
 
 import {useState} from 'react'
-import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBar.tsx'
+import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent.tsx'
 import SelectItal from './SelectItal.tsx';
 import {ItalL1Index} from './ItalL1/ItalL1Index.tsx';
 import {ItalL2Index} from './ItalL2/ItalL2Index.tsx';

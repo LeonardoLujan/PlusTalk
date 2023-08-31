@@ -1,7 +1,7 @@
 "use client"
 
 import {useState} from 'react'
-import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBar.tsx'
+import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent.tsx'
 import {SpanL4AIndex} from 'src/app/components/learning/spanishwords/SpanL4/SpanL4A/SpanL4AIndex.tsx';
 import {SpanL4BIndex} from 'src/app/components/learning/spanishwords/SpanL4/SpanL4B/SpanL4BIndex.tsx';
 import {SpanL4CIndex} from 'src/app/components/learning/spanishwords/SpanL4/SpanL4C/SpanL4CIndex.tsx';
