@@ -3,12 +3,20 @@
 import {useState} from 'react'
 import Image from 'next/image'
 import DownArrow from 'src/app/components/learning/spanishwords/DownArrow.png'
-import {ItalL1AC1} from './ItalL1AC1.tsx';
-import {ItalL1AC2} from './ItalL1AC2.tsx';
-import {ItalL1AC3} from './ItalL1AC3.tsx';
-import {ItalL1AC4} from './ItalL1AC4.tsx';
+import {ItalL1AC1} from './ItalL1AC1';
+import {ItalL1AC2} from './ItalL1AC2';
+import {ItalL1AC3} from './ItalL1AC3';
+import {ItalL1AC4} from './ItalL1AC4';
+import {Lesson} from '../ItalL1NewIndex';
 
-export function ItalL1AIndex({isLessonActive, onShowLesson, unShowLesson}){
+export interface Card {
+    isActive: boolean;
+    onShow: () => void;
+    unShow: () => void;
+}
+
+
+export function ItalL1AIndex({isLessonActive, onShowLesson, unShowLesson}: Lesson){
     
     const [activeIndex, setActiveIndex] = useState(0);
 
@@ -22,7 +30,7 @@ export function ItalL1AIndex({isLessonActive, onShowLesson, unShowLesson}){
                         <h1 className="text-3xl mt-2">Lesson 1A:</h1>
 
                         <button className="mt-2 rounded" onClick={unShowLesson}>
-                            <Image src={DownArrow} height={40} width={40}/>
+                            <Image alt="DownArrow" src={DownArrow} height={40} width={40}/>
                         </button>
 
                     </div>
@@ -56,7 +64,7 @@ export function ItalL1AIndex({isLessonActive, onShowLesson, unShowLesson}){
                     </h1>
 
                     <button className="mt-2 rounded" onClick={onShowLesson}>
-                        <Image src={DownArrow} height={40} width={40}/>
+                        <Image alt="DownArrow" src={DownArrow} height={40} width={40}/>
                     </button>
 
                 </div>

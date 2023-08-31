@@ -1,6 +1,7 @@
-import {italianlesson1A} from 'src/app/components/learning/italianwords/ItalL1/ItalL1Lessons/ItalL1A.tsx'
+import {italianlesson1A} from '../ItalL1Lessons/ItalL1A'
+import {Card} from './ItalL1AIndex';
 
-export function ItalL1AC2({isActive, onShow, unShow})
+export function ItalL1AC2({isActive, onShow, unShow}: Card)
         {
     return(
         <div className="shadow-sm my-3 rounded px-3">
@@ -9,7 +10,7 @@ export function ItalL1AC2({isActive, onShow, unShow})
                 
                     <div className="text-4xl " onClick={unShow}>{italianlesson1A[1].iphrase}</div>
                     
-                    <div onClick={unShow}>{italianlesson1A[1].pronunciation}</div>
+                    
 
                 </div>
 

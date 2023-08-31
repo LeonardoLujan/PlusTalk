@@ -1,12 +1,9 @@
 "use client"
 
 import {useState} from 'react'
-import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent.tsx'
-import SelectItal from './SelectItal.tsx';
-import {ItalL1Index} from './ItalL1/ItalL1Index.tsx';
-import {ItalL2Index} from './ItalL2/ItalL2Index.tsx';
-import {ItalL3Index} from './ItalL3/ItalL3Index.tsx';
-import {ItalL4Index} from './ItalL4/ItalL4Index.tsx';
+import NavBarComponent from '../InterLanguageComponents/NavBar/NavBarComponent'
+import SelectItal from './SelectItal';
+
 
 export default function IndexItalian() {
     
@@ -17,14 +14,14 @@ export default function IndexItalian() {
         <div>
             
 
-                    <div class="grid-cols-6 grid space-x-10">
-                        <div class="col-span-1 ">
+                    <div className="grid-cols-6 grid space-x-10">
+                        <div className="col-span-1 ">
 
-                            <NavBar/>
+                            <NavBarComponent/>
 
                         </div>
 
-                        <div class="col-span-5">
+                        <div className="col-span-5">
                         
                             <SelectItal/>
                         </div>
@@ -37,3 +34,4 @@ export default function IndexItalian() {
         
     )
 }
+

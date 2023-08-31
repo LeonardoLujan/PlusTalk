@@ -1,20 +1,21 @@
-import {italianlesson2B} from 'src/app/components/learning/italianwords/ItalL2/ItalL2Lessons/ItalL2B.tsx'
+import {italianlesson2B} from '../ItalL2Lessons/ItalL2B'
+import {Card} from './ItalL2BIndex';
 
-export function ItalL2BC2({isActive, onShow, unShow})
+export function ItalL2BC2({isActive, onShow, unShow}: Card)
         {
     return(
-        <div class="shadow-sm my-3 rounded px-3">
+        <div className="shadow-sm my-3 rounded px-3">
             {isActive ? (
                 <div>
                 
-                    <div class="text-4xl " onClick={unShow}>{italianlesson2B[1].iphrase}</div>
+                    <div className="text-4xl " onClick={unShow}>{italianlesson2B[1].iphrase}</div>
                     
-                    <div onClick={unShow}>{italianlesson2B[1].pronunciation}</div>
+                    
 
                 </div>
 
             ) : (
-                <div class="text-4xl" onClick={onShow}>{italianlesson2B[1].ephrase}</div>
+                <div className="text-4xl" onClick={onShow}>{italianlesson2B[1].ephrase}</div>
 
 
             )}

@@ -1,20 +1,21 @@
-import {italianlesson4D} from 'src/app/components/learning/italianwords/ItalL4/ItalL4Lessons/ItalL4D.tsx'
+import {italianlesson4D} from '../ItalL4Lessons/ItalL4D'
+import {Card} from './ItalL4DIndex';
 
-export function ItalL4DC2({isActive, onShow, unShow})
+export function ItalL4DC2({isActive, onShow, unShow}: Card)
         {
     return(
-        <div class="shadow-sm my-3 rounded px-3">
+        <div className="shadow-sm my-3 rounded px-3">
             {isActive ? (
                 <div>
                 
-                    <div class="text-4xl " onClick={unShow}>{italianlesson4D[1].iphrase}</div>
+                    <div className="text-4xl " onClick={unShow}>{italianlesson4D[1].iphrase}</div>
                     
-                    <div onClick={unShow}>{italianlesson4D[1].pronunciation}</div>
+                    
 
                 </div>
 
             ) : (
-                <div class="text-4xl" onClick={onShow}>{italianlesson4D[1].ephrase}</div>
+                <div className="text-4xl" onClick={onShow}>{italianlesson4D[1].ephrase}</div>
 
 
             )}

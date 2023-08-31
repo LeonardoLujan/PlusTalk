@@ -6,11 +6,9 @@ import Image from 'next/image';
 import IndianFlag from 'src/app/components/select/IndianFlag.png';
 
 
-export function HindiLink() {
+export default function HindiLink() {
         
     const path = usePathname()
-    
-
     
 
     return(

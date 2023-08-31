@@ -1,12 +1,12 @@
 "use client"
 
 import {useState} from 'react'
-import NavBar from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent.tsx'
-import SelectPort from './SelectPort.tsx';
-import {PortL1Index} from './PortL1/PortL1Index.tsx';
-import {PortL2Index} from './PortL2/PortL2Index.tsx';
-import {PortL3Index} from './PortL3/PortL3Index.tsx';
-import {PortL4Index} from './PortL4/PortL4Index.tsx';
+import NavBarComponent from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent'
+import SelectPort from './SelectPort';
+import {PortL1Index} from './PortL1/PortL1Index';
+import {PortL2Index} from './PortL2/PortL2Index';
+import {PortL3Index} from './PortL3/PortL3Index';
+import {PortL4Index} from './PortL4/PortL4Index';
 
 export default function IndexPortuguese() {
     
@@ -16,14 +16,14 @@ export default function IndexPortuguese() {
     return(
         <div>
 
-                    <div class="grid-cols-6 grid space-x-10">
-                        <div class="col-span-1">
+                    <div className="grid-cols-6 grid space-x-10">
+                        <div className="col-span-1">
 
-                            <NavBar/>
+                            <NavBarComponent/>
 
                         </div>
 
-                        <div class="col-span-5">
+                        <div className="col-span-5">
                         
                             <SelectPort/>
                         </div>

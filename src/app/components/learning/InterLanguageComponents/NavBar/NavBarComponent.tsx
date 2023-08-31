@@ -1,11 +1,13 @@
 
 
-import {ItalianLink} from './ItalianLink.tsx';
-import {SpanishLink} from './SpanishLink.tsx';
-import {PortugueseLink} from './PortugueseLink.tsx';
-import {HindiLink} from './HindiLink.tsx';
+import ItalianLink from './ItalianLink';
+import SpanishLink from './SpanishLink';
+import PortugueseLink from './PortugueseLink';
+import HindiLink from './HindiLink';
 
-export default function NavBar() {
+
+
+export default function NavBarComponent() {
     return(
         <div className="sticky shadow-xl h-screen border-8 rounded-xl border-solid">
         

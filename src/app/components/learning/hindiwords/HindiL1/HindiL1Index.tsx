@@ -18,7 +18,7 @@ export interface Card {
 
 
 
-export function HindiL1Index(isLessonActive: Lesson, onShowLesson: Lesson, unShowLesson: Lesson){
+export function HindiL1Index({isLessonActive, onShowLesson, unShowLesson}: Lesson){
     
     const [activeIndex, setActiveIndex] = useState(0);
 

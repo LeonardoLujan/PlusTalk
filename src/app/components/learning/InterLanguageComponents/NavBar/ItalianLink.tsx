@@ -6,18 +6,16 @@ import Image from 'next/image';
 import ItalianFlag2 from 'src/app/components/select/ItalianFlag2.jpg';
 
 
-export function ItalianLink() {
+
+
+
+export default function ItalianLink() {
         
     const path = usePathname()
 
     let mainpath = path.slice(8, -1)
     let isItalian = path.slice(0, 14)
     
-
-    
-
-    
-
     return(
         <div className="p-1 text-black text-3xl flex justify-center items-center font-medium">
             {isItalian === "/select/italia" ?

@@ -1,20 +1,21 @@
-import {italianlesson3A} from 'src/app/components/learning/italianwords/ItalL3/ItalL3Lessons/ItalL3A.tsx'
+import {italianlesson3A} from '../ItalL3Lessons/ItalL3A'
+import {Card} from './ItalL3AIndex';
 
-export function ItalL3AC3({isActive, onShow, unShow})
+export function ItalL3AC3({isActive, onShow, unShow}: Card)
         {
     return(
-        <div class="shadow-sm my-3 rounded px-3">
+        <div className="shadow-sm my-3 rounded px-3">
             {isActive ? (
                 <div>
                 
-                    <div class="text-4xl " onClick={unShow}>{italianlesson3A[2].iphrase}</div>
+                    <div className="text-4xl " onClick={unShow}>{italianlesson3A[2].iphrase}</div>
                     
-                    <div onClick={unShow}>{italianlesson3A[2].pronunciation}</div>
+                    
 
                 </div>
 
             ) : (
-                <div class="text-4xl" onClick={onShow}>{italianlesson3A[2].ephrase}</div>
+                <div className="text-4xl" onClick={onShow}>{italianlesson3A[2].ephrase}</div>
 
 
             )}

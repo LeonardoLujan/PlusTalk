@@ -6,7 +6,7 @@ import Image from 'next/image';
 import BrazilFlag from 'src/app/components/select/Brazil2.png';
 
 
-export function PortugueseLink() {
+export default function PortugueseLink() {
         
     const path = usePathname()
     
