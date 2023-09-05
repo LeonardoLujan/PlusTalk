@@ -1,20 +1,21 @@
-import {spanishlesson3B} from 'src/app/components/learning/spanishwords/SpanL3/SpanL3Lessons/SpanL3B.tsx'
+import {spanishlesson3B} from '../SpanL3Lessons/SpanL3B'
+import {Card} from './SpanL3BIndex';
 
-export function SpanL3BC3({isActive, onShow, unShow})
+export function SpanL3BC3({isActive, onShow, unShow}: Card)
         {
     return(
-        <div class="shadow-sm my-3 rounded px-3">
+        <div className="shadow-sm my-3 rounded px-3">
             {isActive ? (
                 <div>
                 
-                    <div class="text-4xl " onClick={unShow}>{spanishlesson3B[2].sphrase}</div>
+                    <div className="text-4xl " onClick={unShow}>{spanishlesson3B[2].sphrase}</div>
                     
-                    <div onClick={unShow}>{spanishlesson3B[2].pronunciation}</div>
+                    
 
                 </div>
 
             ) : (
-                <div class="text-4xl" onClick={onShow}>{spanishlesson3B[2].ephrase}</div>
+                <div className="text-4xl" onClick={onShow}>{spanishlesson3B[2].ephrase}</div>
 
 
             )}

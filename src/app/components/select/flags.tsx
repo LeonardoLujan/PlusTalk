@@ -7,49 +7,49 @@ import Link from 'next/link';
 
 export default function Flags() {
     return(
-        <div class="justify-center p-6">
+        <div className="justify-center p-6">
         
 
-            <div class="flex justify-center text-4xl font-semibold">
+            <div className="flex justify-center text-4xl font-semibold">
                 <h1> Select a Language: </h1>
             </div>
 
-            <div class="flex justify-center p-6">
+            <div className="flex justify-center p-6">
             
-                <div class="px-3">
+                <div className="px-3">
                     <div>
                         <Link href="/select/italian">
 
-                            <Image class="border-4 rounded-full" height={235} width={235} src={ItalianFlag2} alt="Italian Flag"/>
+                            <Image className="border-4 rounded-full" height={235} width={235} src={ItalianFlag2} alt="Italian Flag"/>
                         </Link>
                         
                     </div>
 
-                    <h1 class="flex justify-center">Italian</h1>
+                    <h1 className="flex justify-center">Italian</h1>
                     
                 </div>
 
-                <div class="px-3"> 
+                <div className="px-3"> 
                     <Link href="/select/spanish">
-                        <Image class="border-4 rounded-full" height={235} width={235} src={SpainFlag} alt="Spain Flag"/>
+                        <Image className="border-4 rounded-full" height={235} width={235} src={SpainFlag} alt="Spanish Flag"/>
                     </Link>
-                    <h1 class="flex justify-center">Spanish</h1>
+                    <h1 className="flex justify-center">Spanish</h1>
                     
 
                 </div>     
-                <div class="px-3"> 
+                <div className="px-3"> 
                     <Link href="/select/portuguese">
-                        <Image class="border-4 rounded-full" height={235} width={235} src={BrazilFlag} alt="Spain Flag"/>
+                        <Image className="border-4 rounded-full" height={235} width={235} src={BrazilFlag} alt="Brazilian Flag"/>
                     </Link>
-                    <h1 class="flex justify-center">Portuguese</h1>
+                    <h1 className="flex justify-center">Portuguese</h1>
                     
 
                 </div> 
-                <div class="px-3"> 
+                <div className="px-3"> 
                     <Link href="/select/hindi">
-                        <Image class="border-4 rounded-full" height={235} width={235} src={IndianFlag} alt="Spain Flag"/>
+                        <Image className="border-4 rounded-full" height={235} width={235} src={IndianFlag} alt="Indian Flag"/>
                     </Link>
-                    <h1 class="flex justify-center">Hindi</h1>
+                    <h1 className="flex justify-center">Hindi</h1>
                     
 
                 </div> 

@@ -1,8 +1,8 @@
-import PortL4NewIndex from 'src/app/components/learning/portuguesewords/PortL4/PortL4NewIndex.tsx'
+import PortL4NewIndex from '@/app/components/learning/portuguesewords/PortL4/PortL4NewIndex'
 
 export default function PortLesson4() {
     return(
-        <div class="text-black justify-center p-8">
+        <div className="text-black justify-center p-8">
             
             
                 <PortL4NewIndex/>

@@ -1,20 +1,21 @@
-import {portugueselesson1A} from 'src/app/components/learning/portuguesewords/PortL1/PortL1Lessons/PortL1A.tsx'
+import {portugueselesson1A} from '../PortL1Lessons/PortL1A'
+import {Card} from './PortL1AIndex';
 
-export function PortL1AC3({isActive, onShow, unShow})
+export function PortL1AC3({isActive, onShow, unShow}: Card)
         {
     return(
-        <div class="shadow-sm my-3 rounded px-3">
+        <div className="shadow-sm my-3 rounded px-3">
             {isActive ? (
                 <div>
                 
-                    <div class="text-4xl " onClick={unShow}>{portugueselesson1A[2].pphrase}</div>
+                    <div className="text-4xl " onClick={unShow}>{portugueselesson1A[2].pphrase}</div>
                     
-                    <div onClick={unShow}>{portugueselesson1A[2].pronunciation}</div>
+                    
 
                 </div>
 
             ) : (
-                <div class="text-4xl" onClick={onShow}>{portugueselesson1A[2].ephrase}</div>
+                <div className="text-4xl" onClick={onShow}>{portugueselesson1A[2].ephrase}</div>
 
 
             )}

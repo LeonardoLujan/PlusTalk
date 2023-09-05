@@ -1,20 +1,21 @@
-import {spanishlesson4C} from 'src/app/components/learning/spanishwords/SpanL4/SpanL4Lessons/SpanL4C.tsx'
+import {spanishlesson4C} from '../SpanL4Lessons/SpanL4C'
+import {Card} from './SpanL4CIndex';
 
-export function SpanL4CC3({isActive, onShow, unShow})
+export function SpanL4CC3({isActive, onShow, unShow}: Card)
         {
     return(
-        <div class="shadow-sm my-3 rounded px-3">
+        <div className="shadow-sm my-3 rounded px-3">
             {isActive ? (
                 <div>
                 
-                    <div class="text-4xl " onClick={unShow}>{spanishlesson4C[2].sphrase}</div>
+                    <div className="text-4xl " onClick={unShow}>{spanishlesson4C[2].sphrase}</div>
                     
-                    <div onClick={unShow}>{spanishlesson4C[2].pronunciation}</div>
+                    
 
                 </div>
 
             ) : (
-                <div class="text-4xl" onClick={onShow}>{spanishlesson4C[2].ephrase}</div>
+                <div className="text-4xl" onClick={onShow}>{spanishlesson4C[2].ephrase}</div>
 
 
             )}

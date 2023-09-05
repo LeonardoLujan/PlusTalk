@@ -1,8 +1,8 @@
-import Flags from 'src/app/components/select/flags.tsx'
+import Flags from '@/app/components/select/flags'
 
 export default function Select() {
     return(
-            <div class="text-black flex justify-center">
+            <div className="text-black flex justify-center">
     
                 <Flags/>
 

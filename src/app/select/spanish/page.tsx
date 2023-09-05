@@ -1,11 +1,11 @@
 'use client'
 
-import IndexSpanish from 'src/app/components/learning/spanishwords/IndexSpanish.tsx'
+import IndexSpanish from '@/app/components/learning/spanishwords/IndexSpanish'
 
 
 export default function Spanish() {
     return(
-        <div class="text-black justify-center p-8"> 
+        <div className="text-black justify-center p-8"> 
             <IndexSpanish/>
            
         </div>

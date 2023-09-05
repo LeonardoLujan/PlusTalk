@@ -1,20 +1,21 @@
-import {portugueselesson4C} from 'src/app/components/learning/portuguesewords/PortL4/PortL4Lessons/PortL4C.tsx'
+import {portugueselesson4C} from '../PortL4Lessons/PortL4C'
+import {Card} from './PortL4CIndex';
 
-export function PortL4CC4({isActive, onShow, unShow})
+export function PortL4CC4({isActive, onShow, unShow}: Card)
         {
     return(
-        <div class="shadow-sm my-3 rounded px-3">
+        <div className="shadow-sm my-3 rounded px-3">
             {isActive ? (
                 <div>
                 
-                    <div class="text-4xl " onClick={unShow}>{portugueselesson4C[3].pphrase}</div>
+                    <div className="text-4xl " onClick={unShow}>{portugueselesson4C[3].pphrase}</div>
                     
-                    <div onClick={unShow}>{portugueselesson4C[3].pronunciation}</div>
+                    
 
                 </div>
 
             ) : (
-                <div class="text-4xl" onClick={onShow}>{portugueselesson4C[3].ephrase}</div>
+                <div className="text-4xl" onClick={onShow}>{portugueselesson4C[3].ephrase}</div>
 
 
             )}

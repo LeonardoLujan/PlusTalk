@@ -31,7 +31,7 @@ export function HindiL1Index({isLessonActive, onShowLesson, unShowLesson}: Lesso
 
                         <h1 className="text-3xl mt-2">Lesson 1: Greetings & Introductions</h1>
 
-                        <button className="mt-2 rounded" onClick={() => unShowLesson}>
+                        <button className="mt-2 rounded" onClick={unShowLesson}>
                             <Image alt="DropDown Arrow" src={DownArrow} height={40} width={40}/>
                         </button>
 
@@ -65,7 +65,7 @@ export function HindiL1Index({isLessonActive, onShowLesson, unShowLesson}: Lesso
                         Lesson 1: Greetings & Introductions
                     </h1>
 
-                    <button className="mt-2 rounded" onClick={() => onShowLesson}>
+                    <button className="mt-2 rounded" onClick={onShowLesson}>
                         <Image alt="DropDown Arrow" src={DownArrow} height={40} width={40}/>
                     </button>
 

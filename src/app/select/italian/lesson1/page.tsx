@@ -1,8 +1,8 @@
-import ItalL1NewIndex from 'src/app/components/learning/italianwords/ItalL1/ItalL1NewIndex.tsx'
+import ItalL1NewIndex from '@/app/components/learning/italianwords/ItalL1/ItalL1NewIndex'
 
 export default function ItalLesson1() {
     return(
-        <div class="text-black justify-center p-8">
+        <div className="text-black justify-center p-8">
             
             
                 <ItalL1NewIndex/>

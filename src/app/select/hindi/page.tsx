@@ -1,10 +1,10 @@
 
-import IndexHindi from 'src/app/components/learning/hindiwords/IndexHindi.tsx'
+import IndexHindi from '@/app/components/learning/hindiwords/IndexHindi'
 
 export default function Hindi() {
     return(
 
-        <div class="text-black flex justify-center p-8">
+        <div className="text-black flex justify-center p-8">
             
             <IndexHindi/>
 

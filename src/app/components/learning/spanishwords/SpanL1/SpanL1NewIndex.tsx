@@ -1,11 +1,17 @@
 "use client"
 
 import {useState} from 'react'
-import NavBarComponent from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent'
-import {SpanL1AIndex} from 'src/app/components/learning/spanishwords/SpanL1/SpanL1A/SpanL1AIndex';
-import {SpanL1BIndex} from 'src/app/components/learning/spanishwords/SpanL1/SpanL1B/SpanL1BIndex';
-import {SpanL1CIndex} from 'src/app/components/learning/spanishwords/SpanL1/SpanL1C/SpanL1CIndex';
-import {SpanL1DIndex} from 'src/app/components/learning/spanishwords/SpanL1/SpanL1D/SpanL1DIndex';
+import NavBarComponent from '@/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent'
+import {SpanL1AIndex} from '@/app/components/learning/spanishwords/SpanL1/SpanL1A/SpanL1AIndex';
+import {SpanL1BIndex} from '@/app/components/learning/spanishwords/SpanL1/SpanL1B/SpanL1BIndex';
+import {SpanL1CIndex} from '@/app/components/learning/spanishwords/SpanL1/SpanL1C/SpanL1CIndex';
+import {SpanL1DIndex} from '@/app/components/learning/spanishwords/SpanL1/SpanL1D/SpanL1DIndex';
+
+export interface Lesson {
+    isLessonActive: boolean;
+    onShowLesson: () => void;
+    unShowLesson: () => void;
+}
 
 export default function SpanL1NewIndex() {
     

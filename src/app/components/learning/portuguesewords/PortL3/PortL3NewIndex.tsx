@@ -1,11 +1,17 @@
 "use client"
 
 import {useState} from 'react'
-import NavBarComponent from 'src/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent'
-import {PortL3AIndex} from 'src/app/components/learning/portuguesewords/PortL3/PortL3A/PortL3AIndex';
-import {PortL3BIndex} from 'src/app/components/learning/portuguesewords/PortL3/PortL3B/PortL3BIndex';
-import {PortL3CIndex} from 'src/app/components/learning/portuguesewords/PortL3/PortL3C/PortL3CIndex';
-import {PortL3DIndex} from 'src/app/components/learning/portuguesewords/PortL3/PortL3D/PortL3DIndex';
+import NavBarComponent from '@/app/components/learning/InterLanguageComponents/NavBar/NavBarComponent'
+import {PortL3AIndex} from '@/app/components/learning/portuguesewords/PortL3/PortL3A/PortL3AIndex';
+import {PortL3BIndex} from '@/app/components/learning/portuguesewords/PortL3/PortL3B/PortL3BIndex';
+import {PortL3CIndex} from '@/app/components/learning/portuguesewords/PortL3/PortL3C/PortL3CIndex';
+import {PortL3DIndex} from '@/app/components/learning/portuguesewords/PortL3/PortL3D/PortL3DIndex';
+
+export interface Lesson {
+    isLessonActive: boolean;
+    onShowLesson: () => void;
+    unShowLesson: () => void;
+}
 
 export default function PortL3NewIndex() {
     
